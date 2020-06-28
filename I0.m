@@ -1,10 +1,10 @@
-function [outputArg1] = I0(rho,k_t,f,w_L)
+function [outputArg1] = I0(rho,k_t,f,w_L,lmda)
 %I0 Summary of this function goes here
 %   Detailed explanation goes here
 
 % f=4.5e-3; % 4.5 mm
 % w_L=2e-3; 
-lmda=780e-9; % 780 nm
+% lmda=780e-9; % 780 nm
 k=2*pi/lmda;
 
 
